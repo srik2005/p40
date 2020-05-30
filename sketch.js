@@ -22,7 +22,7 @@ function draw() {
   background("black");
 
   b.addImage(bi);
-
+b.scale = 0.25;
 
   if (b.y>400) {
     b.y = 200;
