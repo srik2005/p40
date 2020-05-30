@@ -21,7 +21,7 @@ function setup(){
 function draw() {
   background("black");
 
-
+  b.addImage(bi);
 
 
   if (b.y>400) {
